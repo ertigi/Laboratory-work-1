@@ -3,14 +3,15 @@
 
 #include <stdio.h>
 
-#define N 7
-
 int main()
 {
 	int i, n, c, c1;
-	n = N;
 	c1 = c = 0;
-	for (i = 2; i < N; ++i) {
+
+	printf("N = ");
+	scanf_s("%d", &n);
+
+	for (i = 2; i < n; ++i) {
 		c = n % i;
 		if (c == 0)
 			++c1;
