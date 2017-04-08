@@ -3,16 +3,17 @@
 
 #include <stdio.h>
 
-#define N 99
 
 int main()
 {
 	int k, n, c, c1;
 	k = 0;
 	c = 1;
-	n = N;
 
-	while (c < N) {
+	printf("N = ");
+	scanf_s("%d", &n);
+
+	while (c < n) {
 		k = n % c;
 		if (k == 0)
 			c1 = c;
