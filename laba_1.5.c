@@ -1,3 +1,4 @@
+// Вариант №5
 // Определить, является ли заданное число N простым
 
 #include <stdio.h>
@@ -16,8 +17,8 @@ int main()
 		c = 0;
 	}
 	if (c1 > 0)
-		printf("1\n");
+		printf("no\n");
 	if (c1 == 0)
-		printf("2\n");
+		printf("yes\n");
 	getchar();
 }
