@@ -3,16 +3,19 @@
 
 #include <stdio.h>
 
-#define N 100
 int main()
 {
 	int k, n, c;
 	k = c = 0;
-	n = N;
+
+	printf("N = ");
+	scanf_s("%d", &n);
+
 	do {
 		++k;
 		c = c + k;
 	} while (c < n);
-	printf("k = %d", k-1);
+
+	printf("k = %d", k - 1);
 	getchar();
 }
