@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <locale.h>
+
 #define N 100
 
 int main()
