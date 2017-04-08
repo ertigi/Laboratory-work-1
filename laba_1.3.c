@@ -5,16 +5,16 @@
 #include <math.h>
 #include <locale.h>
 
-#define N 100
-
 int main()
 {
 	setlocale(LC_ALL, "en_US.UTF-8");
 
 	int c;
 	float n;
-	n = N;
-	c = '√';
+	
+	printf("N = ");
+	scanf_s("%f", &n);
+
 	printf("%lcn = %f", 251, sqrtf(n));
 	getchar();
 }
